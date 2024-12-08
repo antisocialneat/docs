@@ -2,17 +2,17 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/pulse-logo.svg",
+    "light": "/logo/pulse-logo.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#23305C",
+    "light": "#494574",
+    "dark": "#23305C",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#23305C",
+      "to": "#494574"
     }
   },
   "topbarLinks": [
@@ -25,18 +25,16 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
+  "primaryTab": {
+    "name": "Mobile App"
+  },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "Backoffice Web App",
       "url": "api-reference"
     }
   ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
     {
       "name": "Community",
       "icon": "slack",
@@ -69,13 +67,13 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Get Started",
       "pages": [
         "api-reference/introduction"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Essentials",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
